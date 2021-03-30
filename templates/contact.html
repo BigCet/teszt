@@ -1,0 +1,20 @@
+{% extends "_base.html" %}
+
+<title>{% block title %} Contact {% endblock title  %}</title>
+
+{% block body %}
+    <h1>{{ title }}</h1>
+    <h3>{{ subtitle }}</h3>
+    <p>{{ email }}</p>
+    <p>{{ phone }}</p>
+
+    <form action="" class="contact-form">
+
+        <input type="email" placeholder="email">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <button>Küldés</button>
+
+    </form>
+
+{% endblock body  %}
