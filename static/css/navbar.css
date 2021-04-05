@@ -28,3 +28,11 @@
     color: #393f44;
 
 }
+
+.navbar img {
+
+    display: flex;
+    justify-content: none;
+    align-items: center;
+    padding: 0px 10px ;
+}
