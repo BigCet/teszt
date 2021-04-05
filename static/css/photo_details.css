@@ -1,9 +1,0 @@
-.details-container{
-    display: grid;
-    grid-gap: 10;
-    grid-template-columns: auto 200px;
-}
-
-.details-container img{
-    width: 100%;
-}
